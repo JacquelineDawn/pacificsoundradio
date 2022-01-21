@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,19 +6,35 @@
 }
 
 body {
-    
-font-family: trade-gothic-next, sans-serif;
-font-style: normal;
-    
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
-header { 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+header {
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-    font-weight: light; 
-    font-size: 20px; 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+li:hover {
+    color: blue;
+    transition: .5s;
 }
