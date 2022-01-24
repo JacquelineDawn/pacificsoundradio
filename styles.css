@@ -55,12 +55,7 @@ a:hover {
     transition: .5s;
 }
 
-.burger div {
-    width: 15px;
-    height: 2px;
-    background-color: black;
-    margin: 2px;
-}
+
 
 #spotify {
     width: 80px;
@@ -74,11 +69,7 @@ a:hover {
 
 /* end of nav */
 
-@media screen and (min-width:800px) {
-    .burger {
-        display: none;
-    }
-}
+
 
 @media screen and (max-width:800px) {
    
