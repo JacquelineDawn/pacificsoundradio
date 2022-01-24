@@ -77,9 +77,19 @@ a:hover {
     svg {
         display: none;
     }
-    block {
-        margin: 5%; 
-        padding: 5%; 
+    img {
+        width: 80%; 
+        height: auto; 
+    }
+    header {
+        margin: 0; 
+        padding: 0: 
+    }
+    
+    nav {
+        margin: 0; 
+        padding:0; 
+    } 
         
 }
 
