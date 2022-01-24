@@ -77,6 +77,10 @@ a:hover {
     svg {
         display: none;
     }
+    block {
+        margin: 5%; 
+        padding: 5%; 
+        
 }
 
 
