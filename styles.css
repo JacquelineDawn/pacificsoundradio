@@ -106,11 +106,10 @@ a:hover {
     .primary-navigation {
         display: inline-block;
         position: fixed;
-        inset: 0 0 0 50%;
-        background: hsl(0 0% 100%/.2); 
+        inset: 0 0 0 0;
+        background: hsl(0 0% 100%/.2);
         backdrop-filter: blur(1rem);
         justify-content: left;
-        
         transform: translateX(100%);
         transition: transform 350ms ease-in;
     }
@@ -120,6 +119,8 @@ a:hover {
     }
     li {
         display: block;
+        padding: 20px;
+        font-size: 18px;
     }
     .mobile-nav-toggle {
         display: block;
@@ -128,7 +129,7 @@ a:hover {
         width: 1 rem;
         aspect-ratio: 1;
         background-color: green;
-        z-index: 9999; 
+        margin-right: 10px;
     }
     .mobile-nav-toggle[aria-expanded="true"] {
         background-color: red;
