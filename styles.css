@@ -106,11 +106,11 @@ a:hover {
     .primary-navigation {
         display: inline-block;
         position: fixed;
-        inset: 0 0 0 30%;
-        background: blue;
+        inset: 0 0 0 50%;
+        background: hsl(0 0% 100%/.2); 
         backdrop-filter: blur(1rem);
         justify-content: left;
-        z-index: 9999;
+        
         transform: translateX(100%);
         transition: transform 350ms ease-in;
     }
@@ -128,6 +128,7 @@ a:hover {
         width: 1 rem;
         aspect-ratio: 1;
         background-color: green;
+        z-index: 9999; 
     }
     .mobile-nav-toggle[aria-expanded="true"] {
         background-color: red;
