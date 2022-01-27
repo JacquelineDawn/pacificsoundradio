@@ -73,6 +73,9 @@
     #youtube {
         width: 40px;
     }
+
+
+.mobile-nav-toggle {display: none; } 
     /* end of nav */
     
     @media screen and (min-width:800px) {
