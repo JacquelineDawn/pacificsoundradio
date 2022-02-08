@@ -213,7 +213,7 @@ a:hover {
         width: 100vw;
     }
     .mainheader {
-        margin: 7% 5% 0 5%;
+        margin: 7% 2% 0 2%;
     }
     .sec-one {
         display: flex;
@@ -240,6 +240,7 @@ a:hover {
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     h1 {
         font-size: 25px;
+        font-weight: 400; 
     }
     h2 {
         font-size: 30px;
