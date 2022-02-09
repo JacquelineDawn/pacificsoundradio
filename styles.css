@@ -87,136 +87,6 @@ h5 {
 }
 
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-img {
-    width: 100%;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0 0 5% 0;
-}
-
-.box {
-    display: inline-block;
-    width: 375px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4%;
-}
-
-.bodyli {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-li {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.menu.btn {
-    display: none;
-    width: 10px;
-}
-
-.icons2 {
-    position: absolute;
-    right: 50px;
-}
-
-a:hover {
-    color: pink;
-    transition: .5s;
-}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-#burger {
-    width: 20px;
-}
-
-#icon {
-    width: 15px;
-}
-
-#spot {
-    width: 30px;
-    margin-left: 0px;
-}
-
-#youtube {
-    width: 40px;
-    margin-left: px;
-}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.mainabout {
-    display: block;
-    text-align: center;
-    margin: 2% 12%;
-    margin-top: 130px;
-}
-
-.mainabout div {
-    padding: 10px;
-}
-
-.secabout {
-    display: block;
-    text-align: center;
-    margin: 2% 12%;
-}
-
-.secabout div {
-    display: inline-block;
-    padding: 10px;
-}
-
-.thirdabout {
-    display: block;
-    text-align: left;
-    margin: 2% 12%;
-    margin-left: 45%;
-}
-
-.thirdabout div {
-    display: inline-block;
-    padding: 10px;
-}
-
-#arrow {
-    width: 20px;
-}
-
-#applybullet {
-    display: flex;
-}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -455,3 +325,135 @@ a:hover {
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 5% 0;
+}
+
+.box {
+    display: inline-block;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+.bodyli {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu.btn {
+    display: none;
+    width: 10px;
+}
+
+.icons2 {
+    position: absolute;
+    right: 50px;
+}
+
+a:hover {
+    color: pink;
+    transition: .5s;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#burger {
+    width: 20px;
+}
+
+#icon {
+    width: 15px;
+}
+
+#spot {
+    width: 30px;
+    margin-left: 0px;
+}
+
+#youtube {
+    width: 40px;
+    margin-left: px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.mainabout {
+    display: block;
+    text-align: center;
+    margin: 2% 12%;
+    margin-top: 130px;
+}
+
+.mainabout div {
+    padding: 10px;
+}
+
+.secabout {
+    display: block;
+    text-align: center;
+    margin: 2% 12%;
+}
+
+.secabout div {
+    display: inline-block;
+    padding: 10px;
+}
+
+.thirdabout {
+    display: block;
+    text-align: left;
+    margin: 2% 12%;
+    margin-left: 45%;
+}
+
+.thirdabout div {
+    display: inline-block;
+    padding: 10px;
+}
+
+#arrow {
+    width: 20px;
+}
+
+#applybullet {
+    display: flex;
+}
