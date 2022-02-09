@@ -27,7 +27,7 @@ hr {
 /* ~~~~~~~~~header~~~~~~~~*/
 
 h1 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -43,7 +43,7 @@ h2 {
 /* ~~~~~~~~~~~~sectionhead~~~~~~~~~~*/
 
 h3 {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 300;
 }
 
@@ -125,7 +125,7 @@ h5 {
     }
     /* ~~~~~~~~~header~~~~~~~~*/
     h1 {
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 500;
     }
     /* ~~~~~~~~~~links ~~~~~~~~~~~~*/
@@ -135,7 +135,7 @@ h5 {
     }
     /* ~~~~~~~~~~~~sectionhead~~~~~~~~~~*/
     h3 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 400;
     }
     /* ~~~~~~about text ~~~~~~~~~*/
@@ -145,7 +145,7 @@ h5 {
     }
     /* ~~~~~~~~~~~~sectiontext~~~~~~~~~~*/
     h5 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 200;
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
