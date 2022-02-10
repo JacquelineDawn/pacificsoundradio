@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dosis:wght@300&family=Oswald:wght@200;300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yantramanav', sans-serif;
+    background-color: black;
+}
+
+.mainheader {
+    margin: 5% 0 5% 0;
+    padding: 0;
+}
+
+.mainbody {
+    margin: 10% 0 0 0;
+    padding: 0;
+}
+
+hr {
+    margin: 4% 0 8% 0;
+}
+
+
+/* ~~~~~~~~~header~~~~~~~~*/
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: whitesmoke;
+    font-family: 'Oswald', sans serif;
+}
+
+
+/* ~~~~~~~~~~links ~~~~~~~~~~~~*/
+
+h2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(139, 139, 139);
+}
+
+
+/* ~~~~~~~~~~~~sectionhead~~~~~~~~~~*/
+
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: whitesmoke;
+    font-family: 'Oswald', sans serif;
+}
+
+
+/* ~~~~~~about text ~~~~~~~~~*/
+
+h4 {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(139, 139, 139);
+}
+
+
+/* ~~~~~~~~~~~~sectiontext~~~~~~~~~~*/
+
+h5 {
+    font-size: 18px;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.sec-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.prim-nav {
+    display: none;
+}
+
+.sec-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 5% 0;
+}
+
+.box {
+    display: inline-block;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+
+.bodyli {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu.btn {
+    display: none;
+}
+
+.icons2 {
+    position: absolute;
+    right: 50px;
+    color: whitesmoke;
+    fill: whitesmoke
+}
+
+a:hover {
+    color: pink;
+    transition: .5s;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#burger {
+    width: 20px;
+    color: whitesmoke;
+}
+
+#icon {
+    width: 15px;
+    color: whitesmoke;
+    fill: whitesmoke;
+}
+
+#spot {
+    width: 25px;
+    margin-left: 0px;
+}
+
+#youtube {
+    width: 30px;
+    margin-left: 0px;
+    color: whitesmoke;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.mainabout {
+    display: block;
+    text-align: center;
+    margin: 2% 12%;
+    margin-top: 130px;
+}
+
+.mainabout div {
+    padding: 10px;
+}
+
+.secabout {
+    display: block;
+    text-align: center;
+    margin: 2% 12%;
+}
+
+.secabout div {
+    display: inline-block;
+    padding: 10px;
+}
+
+.thirdabout {
+    display: block;
+    text-align: left;
+    margin: 2% 12%;
+    margin-left: 45%;
+}
+
+.thirdabout div {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media screen and (max-width: 600px)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+{
+    body {
+        width: 100vw;
+    }
+    .mainheader {
+        margin: 7% 3% 0 3%;
+    }
+    .sec-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bodyli {
+        padding: 10px 0 10px 0;
+    }
+    #spotify {
+        width: 100px;
+    }
+    #applybullet {
+        padding: 10px;
+    }
+    #arrow {
+        margin: 0 0 0 3px;
+        padding: 2px;
+        width: 20px;
+    }
+    #burger {
+        padding-top: 9px;
+    }
+    /* ~~~~~~~~~header~~~~~~~~*/
+    h1 {
+        font-size: 30px;
+        font-weight: 200;
+        color: whitesmoke;
+    }
+    /* ~~~~~~~~~~links ~~~~~~~~~~~~*/
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+    /* ~~~~~~~~~~~~sectionhead~~~~~~~~~~*/
+    h3 {
+        font-size: 25px;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+    /* ~~~~~~about text ~~~~~~~~~*/
+    h4 {
+        font-size: 20px;
+        font-weight: 300;
+        color: whitesmoke;
+    }
+    /* ~~~~~~~~~~~~sectiontext~~~~~~~~~~*/
+    h5 {
+        font-size: 20px;
+        font-weight: 200;
+        color: whitesmoke;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    img {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .box {
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodyli {
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .prim-nav {
+        position: fixed;
+        display: block;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        inset: 0 0 0 0;
+        background: rgba(71, 1, 50, 0.7);
+        backdrop-filter: blur(1rem);
+        z-index: 9998;
+        transform: translateX(100%);
+        transition: transform 350ms ease-in;
+        transition: transform 350ms ease-out;
+        color: black;
+    }
+    .prim-nav[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 40px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        z-index: 9999;
+        color: whitesmoke;
+        /* border: 3px solid #fff; */
+    }
+    .menu-btn__burger {
+        width: 30px;
+        height: 2px;
+        background: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all .5s ease-in-out;
+        z-index: 9999;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all .5s ease-in-out;
+        z-index: 9999;
+    }
+    .menu-btn__burger::before {
+        transform: translateY(-16px);
+        z-index: 9999;
+        background: whitesmoke;
+    }
+    .menu-btn__burger::after {
+        transform: translateY(16px);
+        z-index: 9999;
+        background: whitesmoke;
+    }
+    /* ANIMATION */
+    .menu-btn.open .menu-btn__burger {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+        z-index: 9999;
+        background: whitesmoke;
+    }
+    .menu-btn.open .menu-btn__burger::before {
+        transform: rotate(45deg) translate(35px, -35px);
+        z-index: 9999;
+    }
+    .menu-btn.open .menu-btn__burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+        z-index: 9999;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .sec-nav {
+        display: none;
+    }
+    .icons2 {
+        display: none;
+    }
+    li {
+        display: block;
+        color: black;
+    }
+    .prim-nav li {
+        padding: 15px;
+    }
+    #icon {
+        width: 25px;
+        fill: white;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    .mainabout {
+        display: block;
+        text-align: left;
+        margin: 18% 2% 2% 2%;
+        margin-top: 40px;
+    }
+    .mainabout div {
+        padding: 10px;
+    }
+    .secabout {
+        display: block;
+        text-align: left;
+        margin: 2% 2%;
+    }
+    .secabout div {
+        padding: 10px;
+    }
+    .thirdabout {
+        display: block;
+        text-align: left;
+        margin: 2% 12%;
+        margin-left: 21px;
+    }
+}
+
+
+/* trans */
+
+.bodyTransition {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.bodyOpacityBefore {
+    opacity: 0;
+}
+
+.bodyOpacityAfter {
+    opacity: 1;
+}
+
+.opacityTransition {
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+.opacityBefore {
+    opacity: 0;
+}
+
+.opacityAfter {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
