@@ -41,7 +41,7 @@ h1 {
 h2 {
     font-size: 15px;
     font-weight: 300;
-    color: rgb(139, 139, 139);
+    color: rgb(190, 190, 190);
 }
 
 
@@ -60,7 +60,7 @@ h3 {
 h4 {
     font-size: 18px;
     font-weight: 300;
-    color: rgb(139, 139, 139);
+    color: rgb(190, 190, 190);
 }
 
 
@@ -69,7 +69,7 @@ h4 {
 h5 {
     font-size: 18px;
     font-weight: 200;
-    color: whitesmoke;
+     color: rgb(190, 190, 190);
 }
 
 .sec-one {
@@ -269,7 +269,7 @@ a:hover {
     h2 {
         font-size: 30px;
         font-weight: 400;
-        color: whitesmoke;
+        color: rgb(190, 190, 190);
     }
     /* ~~~~~~~~~~~~sectionhead~~~~~~~~~~*/
     h3 {
@@ -281,13 +281,13 @@ a:hover {
     h4 {
         font-size: 20px;
         font-weight: 300;
-        color: whitesmoke;
+         color: rgb(190, 190, 190);
     }
     /* ~~~~~~~~~~~~sectiontext~~~~~~~~~~*/
     h5 {
         font-size: 20px;
         font-weight: 200;
-        color: whitesmoke;
+        color: rgb(190, 190, 190);
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     img {
