@@ -154,7 +154,7 @@ a {
     position: absolute;
     right: 50px;
     color: whitesmoke;
-    fill: whitesmoke
+    fill: rgb(190, 190, 190);
 }
 
 a:hover {
@@ -173,7 +173,7 @@ a:hover {
 #icon {
     width: 15px;
     color: whitesmoke;
-    fill: whitesmoke;
+    rgb(190, 190, 190);
 }
 
 #spot {
