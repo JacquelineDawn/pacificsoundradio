@@ -405,20 +405,7 @@ a:hover {
     .mainabout div {
         padding: 10px;
     }
-    .secabout {
-        display: block;
-        text-align: left;
-        margin: 2% 2%;
-    }
-    .secabout div {
-        padding: 10px;
-    }
-    .thirdabout {
-        display: block;
-        text-align: left;
-        margin: 2% 12%;
-        margin-left: 21px;
-    }
+
 }
 
 
