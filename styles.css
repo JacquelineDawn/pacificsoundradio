@@ -193,18 +193,18 @@ a:hover {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .mainabout {
+    display: flex; 
+    justify-content: center;
     display: block;
     text-align: center;
     margin: 2% 12%;
     margin-top: 130px;
-    
 }
 
 .mainabout div {
     padding: 10px;
+    display: block;
 }
-
-
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
