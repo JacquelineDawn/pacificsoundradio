@@ -197,34 +197,14 @@ a:hover {
     text-align: center;
     margin: 2% 12%;
     margin-top: 130px;
+    
 }
 
 .mainabout div {
     padding: 10px;
 }
 
-.secabout {
-    display: block;
-    text-align: center;
-    margin: 2% 12%;
-}
 
-.secabout div {
-    display: inline-block;
-    padding: 10px;
-}
-
-.thirdabout {
-    display: block;
-    text-align: left;
-    margin: 2% 12%;
-    margin-left: 45%;
-}
-
-.thirdabout div {
-    display: inline-block;
-    padding: 10px;
-}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
