@@ -69,7 +69,7 @@ h4 {
 h5 {
     font-size: 15px;
     font-weight: 200;
-    color: whitesmoke;
+    color:  rgb(190, 190, 190);
 }
 
 .sec-one {
@@ -153,8 +153,8 @@ a {
 .icons2 {
     position: absolute;
     right: 50px;
-    color: whitesmoke;
-    fill: whitesmoke; 
+    color:  rgb(190, 190, 190);
+    fill:  rgb(190, 190, 190);
 }
 
 a:hover {
@@ -172,19 +172,21 @@ a:hover {
 
 #icon {
     width: 15px;
-    color: whitesmoke;
-    fill: whitesmoke; 
+    color:  rgb(190, 190, 190);
+    fill:  rgb(190, 190, 190);
 }
 
 #spot {
     width: 25px;
     margin-left: 0px;
-}
+     color:  rgb(190, 190, 190);
+    fill:  rgb(190, 190, 190);
 
 #youtube {
     width: 30px;
     margin-left: 0px;
-    color: whitesmoke;
+   color:  rgb(190, 190, 190);
+    fill:  rgb(190, 190, 190);
 }
 
 
