@@ -73,6 +73,7 @@ hr {
 h1 {
     font-size: 30px;
     font-weight: 300;
+     color: #ffffff; 
 
     
 }
@@ -83,6 +84,7 @@ h1 {
 h2 {
     font-size: 15px;
     font-weight: 300;
+     color: #ffffff; 
   
 }
 
@@ -94,6 +96,7 @@ h3 {
     font-weight: 300;
    
     font-family: 'Oswald', sans serif;
+     color: #ffffff; 
 }
 
 
@@ -102,6 +105,7 @@ h3 {
 h4 {
     font-size: 18px;
     font-weight: 300;
+     color: #ffffff; 
   
 }
 
@@ -111,6 +115,7 @@ h4 {
 h5 {
     font-size: 12px;
     font-weight: 200;
+     color: #ffffff; 
     
 }
 
@@ -119,6 +124,7 @@ h6 {
   
     font-weight: 300;
     font-family: Oswald; 
+     color: #ffffff; 
 }
 
 
