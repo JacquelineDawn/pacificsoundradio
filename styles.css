@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Yantramanav', sans-serif;
-    background-color:black;
+    background-color: rgb(19,0,0); 
+    color: #ffffff; 
 }
 
 .mainheader {
@@ -72,7 +73,7 @@ hr {
 h1 {
     font-size: 30px;
     font-weight: 300;
-    color: whitesmoke;
+
     
 }
 
@@ -82,7 +83,7 @@ h1 {
 h2 {
     font-size: 15px;
     font-weight: 300;
-    color: whitesmoke;
+  
 }
 
 
@@ -91,7 +92,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-weight: 300;
-    color: whitesmoke;
+   
     font-family: 'Oswald', sans serif;
 }
 
@@ -101,7 +102,7 @@ h3 {
 h4 {
     font-size: 18px;
     font-weight: 300;
-    color: whitesmoke;
+  
 }
 
 
@@ -110,12 +111,12 @@ h4 {
 h5 {
     font-size: 12px;
     font-weight: 200;
-    color: whitesmoke;
+    
 }
 
 h6 { 
     font-size: 50px;
-    color: whitesmoke; 
+  
     font-weight: 300;
     font-family: Oswald; 
 }
